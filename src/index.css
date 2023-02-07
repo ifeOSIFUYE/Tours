@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loading {
+    @apply text-3xl font-bold tracking-wider capitalize text-center text-blue-500
+}
+
+.underline {
+    @apply mx-auto h-1 w-16 bg-sky-400
+}
