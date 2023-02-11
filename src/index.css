@@ -2,10 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+.title {
+}
+
 .loading {
-    @apply text-3xl font-bold tracking-wider capitalize text-center text-blue-500
+  @apply text-3xl font-bold tracking-wider capitalize text-center text-blue-500;
 }
 
 .underline {
-    @apply mx-auto h-1 w-16 bg-sky-400
+  @apply mx-auto h-1 w-16 bg-sky-400 mb-12;
+}
+
+.single-tour {
+  @apply w-full mx-auto my-8 bg-white rounded overflow-hidden shadow-md text-center;
+}
+
+.tour-info {
+  @apply flex justify-between mb-6;
+}
+
+.delete-btn {
+  @apply capitalize text-red-600 px-10 font-semibold rounded border border-red-600;
 }
